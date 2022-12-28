@@ -3,6 +3,7 @@
 ```c++
 
 #include <iostream>
+
 using namespace std;
 
 void personal_inf(void);
@@ -27,6 +28,7 @@ int main()
     tools();
     swot();
 }
+
 void personal_inf(void)
 {
     string name = "Sadia Afrin";
@@ -106,6 +108,7 @@ void lang(void)
          << "\t" << lang3 << endl
          << endl;
 }
+
 void plang(void)
 {
     string lang1 = "C++";
